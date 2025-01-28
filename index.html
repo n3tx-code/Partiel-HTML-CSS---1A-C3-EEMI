@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard boutique en ligne</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="dashboard">
+        <div class="sidebar">
+            <div id="logo-container">
+            <img src="img/logo.png" alt="EEMI Logo" id="logo">
+            </div>
+            <nav>
+                <a href="#" title="Dashboard" class="active">🏠</a>
+                <a href="#" title="Analysis">📊</a>
+                <a href="#" title="Users">👥</a>
+                <a href="#" title="Ventes">💰</a>
+                <a href="#" title="Settings">⚙️</a>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="header">
+                <h1>Dashboard boutique en ligne EEMI</h1>
+            </div>
+            <div class="widgets">
+                <div class="widget shadow">
+                    <h2>CA mois en cours</h2>
+                    <span>12 345,67€</span>
+                </div>
+                <div class="widget shadow">
+                    <h2>Taux de conversion</h2>
+                    <span>12%</span>
+                </div>
+                <div class="widget shadow">
+                    <h2>Panier moyen</h2>
+                    <span>78,90€</span>
+                </div>
+                <div class="widget shadow">
+                    <h2>Commandes ce mois-ci</h2>
+                    <span>42</span>
+                </div>
+            </div>
+            <div id="client-orders-container">
+                <div id="client-data">
+                    <div class="widget shadow">
+                        <h3>Nouveaux clients</h3>
+                        <span>450</span>
+                    </div>
+                    <div class="widget shadow">
+                        <h3>Message de clients en attente</h3>
+                        <span>7</span>
+                    </div>
+                </div>
+                <div id="orders" class="shadow widget">
+                    <h2>Dernières commandes</h2>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Client</th>
+                                    <th>N° commande</th>
+                                    <th>Prix</th>
+                                    <th>Status</th>
+                                    <th>Date de commande</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>John Doe</td>
+                                    <td>398713</td>
+                                    <td>45,90€</td>
+                                    <td>En cours</td>
+                                    <td>21/01/2024</td>
+                                    <td class="actions"><button title="valid">✅</button><button href="#" title="Annulée">❌</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Jane Doe</td>
+                                    <td>398712</td>
+                                    <td>12,90€</td>
+                                    <td>Validée</td>
+                                    <td>20/01/2024</td>
+                                    <td class="actions"><a href="#">Voir</a></td>
+                                </tr>
+                                <tr>
+                                    <td>John Smith</td>
+                                    <td>398711</td>
+                                    <td>23,90€</td>
+                                    <td>En cours</td>
+                                    <td>20/01/2024</td>
+                                    <td class="actions"><button title="valid">✅</button><button href="#" title="Annulée">❌</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Jane Smith</td>
+                                    <td>398710</td>
+                                    <td>12,90€</td>
+                                    <td>En cours</td>
+                                    <td>20/01/2024</td>
+                                    <td class="actions"><button title="valid">✅</button><button href="#" title="Annulée">❌</button></td>
+                                </tr>
+                                <tr>
+                                    <td>John Doe</td>
+                                    <td>398709</td>
+                                    <td>45,90€</td>
+                                    <td>En cours</td>
+                                    <td>20/01/2024</td>
+                                    <td><a href="#">Voir</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Jane Doe</td>
+                                    <td>398708</td>
+                                    <td>12,90€</td>
+                                    <td>En cours</td>
+                                    <td>20/01/2024</td>
+                                    <td><a href="#">Voir</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
